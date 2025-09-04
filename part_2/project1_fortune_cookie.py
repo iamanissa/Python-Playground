@@ -1,3 +1,5 @@
+# Fortune Cookie
+
 import random 
 
 lucky_number = random.randint(1, 100)
