@@ -41,9 +41,13 @@ del(movies["Pride and Prejudice"])
 print(len(movies)) #--> 3
 print(movies) #--> {'The Little Princess': 1995, 'The King and I': 1956, 'The Lego Movie': 2014}
 
-# Challenge
-# Make dictionary with Ints for keys and booleans for values
-
+# Challenge: Make dictionary with Ints for keys and booleans for values
+flip_flop = { 1:True, 2:True, 3:False}
+for key in flip_flop:
+    print(flip_flop[key])
+#--> True
+# True
+# False
 
 
 
